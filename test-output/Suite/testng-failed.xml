@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Utilities_Package.Listener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="employee_Test_classes.TC003_Post_employee">
+        <methods>
+          <include name="checkresponsebody"/>
+          <include name="logger"/>
+          <include name="getstatsuscodepost"/>
+          <include name="postemployee"/>
+        </methods>
+      </class> <!-- employee_Test_classes.TC003_Post_employee -->
+      <class name="employee_Test_classes.TC004_PUT_Employee">
+        <methods>
+          <include name="getstuscode"/>
+          <include name="Putrequest"/>
+          <include name="logger"/>
+        </methods>
+      </class> <!-- employee_Test_classes.TC004_PUT_Employee -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

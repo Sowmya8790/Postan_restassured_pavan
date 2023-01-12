@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+		<listeners>
+			<listener class-name="Utilities_Package.Listener"/>
+		</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="employee_Test_classes.TC001_Gett_All_Employees"/>
+      <class name="employee_Test_classes.TC002_Employee_Get_Single"/>
+        <class name="employee_Test_classes.TC004_PUT_Employee"/>
+         <class name="employee_Test_classes.TC003_Post_employee"/>
+      <class name="employee_Test_classes.TC005_Delete_Employee"/>
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
